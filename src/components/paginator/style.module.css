@@ -1,0 +1,11 @@
+.paginator {
+	display: flex;
+	flex-direction: row;
+	margin: 10px auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.paginator > * {
+	margin: 2px;
+}

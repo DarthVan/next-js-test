@@ -1,0 +1,53 @@
+.item {
+	display: flex;
+	flex-direction: column;
+	width: 206px;
+	height: 206px;
+	background: rgb(178, 215, 228);
+	background-size: contain;
+	border: 3px double #32a1ce;
+	border-radius: 5px;
+	cursor: pointer;
+
+	transition: 0.4s;
+	scale: 1.0;
+	z-index: 0;
+}
+
+.item:hover {
+	transition: 0.2s;
+	scale: 1.08;
+	z-index: 999;
+}
+
+.itemInfo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background: #000000AA;
+	margin-top: auto;
+}
+
+.itemInfo > * {
+	margin: 5px;
+}
+
+.itemInfoTextBlock {
+	display: flex;
+	flex-direction:column;
+}
+
+.itemTitle {
+	color: aliceblue;
+	text-shadow: 1px 1px 2px black;
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.itemBrand {
+	color: aliceblue;
+	text-shadow: 1px 1px 2px black;
+	text-align: left;
+	font-size: 12px;
+}
